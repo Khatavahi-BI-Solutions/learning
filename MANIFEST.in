@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include learning_app_by_khatavahi *.css
+recursive-include learning_app_by_khatavahi *.csv
+recursive-include learning_app_by_khatavahi *.html
+recursive-include learning_app_by_khatavahi *.ico
+recursive-include learning_app_by_khatavahi *.js
+recursive-include learning_app_by_khatavahi *.json
+recursive-include learning_app_by_khatavahi *.md
+recursive-include learning_app_by_khatavahi *.png
+recursive-include learning_app_by_khatavahi *.py
+recursive-include learning_app_by_khatavahi *.svg
+recursive-include learning_app_by_khatavahi *.txt
+recursive-exclude learning_app_by_khatavahi *.pyc
